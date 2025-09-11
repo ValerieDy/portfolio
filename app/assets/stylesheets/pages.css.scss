@@ -1,0 +1,36 @@
+/* Main Section Styling */
+.main-section {
+  height: 100vh;
+  background: url('/assets/your-background.jpg') no-repeat center center;
+  background-size: cover;
+  position: relative;
+}
+
+/* Overlay (optional if you want text more readable) */
+.main-section::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  background: rgba(0, 0, 0, 0.5);
+}
+
+.main-section > div {
+  position: relative;
+  z-index: 2;
+}
+
+/* Footer social icons */
+footer .icon {
+  width: 32px;
+  height: 32px;
+  margin: 0 8px;
+  filter: invert(1); /* makes icons white if they’re black */
+  transition: transform 0.2s;
+}
+
+footer .icon:hover {
+  transform: scale(1.2);
+}
