@@ -1,0 +1,28 @@
+<main class="portfolio-main">
+  <section class="highlight text-center">
+    <h1>My Best Work</h1>
+    <img src="/images/best_work.png" alt="Best Work" class="img-fluid">
+  </section>
+
+  <section class="projects-grid mt-5">
+    <h2 class="text-center mb-4">My Apps</h2>
+    <div class="row">
+      <% if @projects.present? %>
+        <% @projects.each do |project| %>
+          <div class="col-md-4 mb-4">
+            <div class="card h-100">
+              <img src="<%= project[:screenshot_url] %>" class="card-img-top" alt="<%= project[:title] %>">
+              <div class="card-body">
+                <h5 class="card-title"><%= project[:title] %></h5>
+                <p class="card-text"><%= project[:description] %></p>
+                <a href="<%= project[:live_url] %>" target="_blank" class="btn btn-primary">View Live App</a>
+              </div>
+            </div>
+          </div>
+        <% end %>
+      <% else %>
+        <p class="text-center">No projects to display yet.</p>
+      <% end %>
+    </div> <!-- close .row -->
+  </section>
+</main>
