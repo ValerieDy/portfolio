@@ -1,13 +1,13 @@
-Started GET "/?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 70.51.64.56 at 2025-09-15 21:56:42 +0000
-Cannot render console from 10.20.11.53! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-  [1m[35m (1.7ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
+Started GET "/welcome?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 70.51.64.56 at 2025-09-15 22:05:32 +0000
+Cannot render console from 10.20.11.200! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+  [1m[35m (1.4ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
 Processing by PagesController#welcome as HTML
   Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
   Rendering layout layouts/application.html.erb
   Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 9.9ms | Allocations: 664)
-  Rendered layout layouts/application.html.erb (Duration: 247.1ms | Allocations: 77384)
-Completed 200 OK in 261ms (Views: 251.8ms | ActiveRecord: 0.0ms | Allocations: 83781)
+  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.6ms | Allocations: 664)
+  Rendered layout layouts/application.html.erb (Duration: 277.3ms | Allocations: 77278)
+Completed 200 OK in 290ms (Views: 281.7ms | ActiveRecord: 0.0ms | Allocations: 83675)
 
 
   
@@ -22,38 +22,14 @@ ActionController::RoutingError (No route matches [GET] "/assets/twitter-icon.png
   
 ActionController::RoutingError (No route matches [GET] "/assets/your-background.jpg"):
   
-Started GET "/about" for 70.51.64.56 at 2025-09-15 21:56:54 +0000
-Cannot render console from 10.20.11.53! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#about as HTML
+Started GET "/contact" for 70.51.64.56 at 2025-09-15 22:05:36 +0000
+Cannot render console from 10.20.12.222! Allowed networks: 127.0.0.0/127.255.255.255, ::1
+Processing by PagesController#contact as HTML
   Rendering layout layouts/application.html.erb
-  Rendering pages/about.html.erb within layouts/application
-  Rendered pages/about.html.erb within layouts/application (Duration: 0.5ms | Allocations: 166)
-  Rendered layout layouts/application.html.erb (Duration: 3.6ms | Allocations: 2522)
-Completed 200 OK in 4ms (Views: 4.0ms | ActiveRecord: 0.0ms | Allocations: 2891)
-
-
-Started GET "/images/profile.jpg" for 70.51.64.56 at 2025-09-15 21:56:54 +0000
-Cannot render console from 10.20.12.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-  
-ActionController::RoutingError (No route matches [GET] "/images/profile.jpg"):
-  
-  
-ActionController::RoutingError (No route matches [GET] "/assets/github-icon.png"):
-  
-  
-ActionController::RoutingError (No route matches [GET] "/assets/twitter-icon.png"):
-  
-  
-ActionController::RoutingError (No route matches [GET] "/assets/linkedin-icon.png"):
-  
-Started GET "/" for 70.51.64.56 at 2025-09-15 21:57:10 +0000
-Cannot render console from 10.20.12.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.2ms | Allocations: 49)
-  Rendered layout layouts/application.html.erb (Duration: 3.1ms | Allocations: 2389)
-Completed 200 OK in 4ms (Views: 3.5ms | ActiveRecord: 0.0ms | Allocations: 2698)
+  Rendering pages/contact.html.erb within layouts/application
+  Rendered pages/contact.html.erb within layouts/application (Duration: 0.6ms | Allocations: 181)
+  Rendered layout layouts/application.html.erb (Duration: 4.1ms | Allocations: 2527)
+Completed 200 OK in 5ms (Views: 4.6ms | ActiveRecord: 0.0ms | Allocations: 2839)
 
 
   
@@ -64,54 +40,4 @@ ActionController::RoutingError (No route matches [GET] "/assets/linkedin-icon.pn
   
   
 ActionController::RoutingError (No route matches [GET] "/assets/twitter-icon.png"):
-  
-  
-ActionController::RoutingError (No route matches [GET] "/assets/your-background.jpg"):
-  
-Started GET "/?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 70.51.64.56 at 2025-09-15 21:57:27 +0000
-Cannot render console from 10.20.12.142! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-Processing by PagesController#welcome as HTML
-  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 0.7ms | Allocations: 224)
-  Rendered layout layouts/application.html.erb (Duration: 5.7ms | Allocations: 3076)
-Completed 200 OK in 8ms (Views: 7.3ms | ActiveRecord: 0.0ms | Allocations: 4067)
-
-
-  
-ActionController::RoutingError (No route matches [GET] "/assets/linkedin-icon.png"):
-  
-  
-ActionController::RoutingError (No route matches [GET] "/assets/github-icon.png"):
-  
-  
-ActionController::RoutingError (No route matches [GET] "/assets/twitter-icon.png"):
-  
-  
-ActionController::RoutingError (No route matches [GET] "/assets/your-background.jpg"):
-  
-Started GET "/?allowEmbedForCodecademy=false&allowCopyAndPasteForCodecademy=true&allowFileUploadForCodecademy=true&allowFileDownloadForCodecademy=true&allowExternalLinkForCodecademy=true&allowAICodeExplainForCodecademy=true&allowAIChatAssistantForCodecademy=true&allowAIErrorExplainForCodecademy=true" for 70.51.64.56 at 2025-09-15 22:00:23 +0000
-Cannot render console from 10.20.11.53! Allowed networks: 127.0.0.0/127.255.255.255, ::1
-  [1m[35m (0.5ms)[0m  [1m[34mSELECT sqlite_version(*)[0m
-Processing by PagesController#welcome as HTML
-  Parameters: {"allowEmbedForCodecademy"=>"false", "allowCopyAndPasteForCodecademy"=>"true", "allowFileUploadForCodecademy"=>"true", "allowFileDownloadForCodecademy"=>"true", "allowExternalLinkForCodecademy"=>"true", "allowAICodeExplainForCodecademy"=>"true", "allowAIChatAssistantForCodecademy"=>"true", "allowAIErrorExplainForCodecademy"=>"true"}
-  Rendering layout layouts/application.html.erb
-  Rendering pages/welcome.html.erb within layouts/application
-  Rendered pages/welcome.html.erb within layouts/application (Duration: 1.1ms | Allocations: 560)
-  Rendered layout layouts/application.html.erb (Duration: 116.1ms | Allocations: 23748)
-Completed 200 OK in 126ms (Views: 118.6ms | ActiveRecord: 0.0ms | Allocations: 28991)
-
-
-  
-ActionController::RoutingError (No route matches [GET] "/assets/linkedin-icon.png"):
-  
-  
-ActionController::RoutingError (No route matches [GET] "/assets/github-icon.png"):
-  
-  
-ActionController::RoutingError (No route matches [GET] "/assets/twitter-icon.png"):
-  
-  
-ActionController::RoutingError (No route matches [GET] "/assets/your-background.jpg"):
   
