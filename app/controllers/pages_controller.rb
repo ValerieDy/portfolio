@@ -20,4 +20,7 @@ class PagesController < ApplicationController
       # Add more projects as needed
     ]
   end
+
+  def about
+  end
 end
